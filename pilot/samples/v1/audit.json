@@ -1,0 +1,6423 @@
+{
+  "created_utc": "2026-10-04T17:02:59.530095+00:00",
+  "character_count": 81,
+  "pair_count": 54,
+  "sample_count": 1215,
+  "expected_count": 1215,
+  "font_missing": [],
+  "unique_pixel_images": 1215,
+  "duplicate_groups": [],
+  "cross_label_duplicate_groups": [],
+  "high_res_cropped": [],
+  "translation_failures": [],
+  "blank_images": [],
+  "max_edge_darkness": 0,
+  "edge_darkness_ge_16": [],
+  "minimum_raw_ink_margin_output_px": 5.75,
+  "pair_pixel_distances_center": [
+    {
+      "pair_id": 1,
+      "a": "己",
+      "b": "已",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 8.129150390625
+    },
+    {
+      "pair_id": 1,
+      "a": "己",
+      "b": "已",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 7.784912109375
+    },
+    {
+      "pair_id": 1,
+      "a": "己",
+      "b": "已",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 7.106201171875
+    },
+    {
+      "pair_id": 2,
+      "a": "已",
+      "b": "巳",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 9.2412109375
+    },
+    {
+      "pair_id": 2,
+      "a": "已",
+      "b": "巳",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 8.788818359375
+    },
+    {
+      "pair_id": 2,
+      "a": "已",
+      "b": "巳",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 7.989013671875
+    },
+    {
+      "pair_id": 3,
+      "a": "土",
+      "b": "士",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 5.100830078125
+    },
+    {
+      "pair_id": 3,
+      "a": "土",
+      "b": "士",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 4.88623046875
+    },
+    {
+      "pair_id": 3,
+      "a": "土",
+      "b": "士",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 4.650146484375
+    },
+    {
+      "pair_id": 4,
+      "a": "未",
+      "b": "末",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 5.238037109375
+    },
+    {
+      "pair_id": 4,
+      "a": "未",
+      "b": "末",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 5.070556640625
+    },
+    {
+      "pair_id": 4,
+      "a": "未",
+      "b": "末",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 4.7294921875
+    },
+    {
+      "pair_id": 5,
+      "a": "日",
+      "b": "曰",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 30.002197265625
+    },
+    {
+      "pair_id": 5,
+      "a": "日",
+      "b": "曰",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 28.843017578125
+    },
+    {
+      "pair_id": 5,
+      "a": "日",
+      "b": "曰",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 25.610107421875
+    },
+    {
+      "pair_id": 6,
+      "a": "戊",
+      "b": "戌",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 18.99951171875
+    },
+    {
+      "pair_id": 6,
+      "a": "戊",
+      "b": "戌",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 18.20751953125
+    },
+    {
+      "pair_id": 6,
+      "a": "戊",
+      "b": "戌",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 16.239013671875
+    },
+    {
+      "pair_id": 7,
+      "a": "戌",
+      "b": "戍",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 7.927734375
+    },
+    {
+      "pair_id": 7,
+      "a": "戌",
+      "b": "戍",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 7.462158203125
+    },
+    {
+      "pair_id": 7,
+      "a": "戌",
+      "b": "戍",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 6.53466796875
+    },
+    {
+      "pair_id": 8,
+      "a": "木",
+      "b": "本",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 27.012939453125
+    },
+    {
+      "pair_id": 8,
+      "a": "木",
+      "b": "本",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 25.76953125
+    },
+    {
+      "pair_id": 8,
+      "a": "木",
+      "b": "本",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 22.467529296875
+    },
+    {
+      "pair_id": 9,
+      "a": "木",
+      "b": "术",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 7.686767578125
+    },
+    {
+      "pair_id": 9,
+      "a": "木",
+      "b": "术",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 7.29443359375
+    },
+    {
+      "pair_id": 9,
+      "a": "木",
+      "b": "术",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 6.7646484375
+    },
+    {
+      "pair_id": 10,
+      "a": "木",
+      "b": "朱",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 38.772216796875
+    },
+    {
+      "pair_id": 10,
+      "a": "木",
+      "b": "朱",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 37.044189453125
+    },
+    {
+      "pair_id": 10,
+      "a": "木",
+      "b": "朱",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 33.166015625
+    },
+    {
+      "pair_id": 11,
+      "a": "大",
+      "b": "太",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 10.81103515625
+    },
+    {
+      "pair_id": 11,
+      "a": "大",
+      "b": "太",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 10.41845703125
+    },
+    {
+      "pair_id": 11,
+      "a": "大",
+      "b": "太",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 9.79833984375
+    },
+    {
+      "pair_id": 12,
+      "a": "太",
+      "b": "犬",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 15.582763671875
+    },
+    {
+      "pair_id": 12,
+      "a": "太",
+      "b": "犬",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 15.0830078125
+    },
+    {
+      "pair_id": 12,
+      "a": "太",
+      "b": "犬",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 14.123779296875
+    },
+    {
+      "pair_id": 13,
+      "a": "刀",
+      "b": "刃",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 17.088134765625
+    },
+    {
+      "pair_id": 13,
+      "a": "刀",
+      "b": "刃",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 16.579345703125
+    },
+    {
+      "pair_id": 13,
+      "a": "刀",
+      "b": "刃",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 15.549560546875
+    },
+    {
+      "pair_id": 14,
+      "a": "鸟",
+      "b": "乌",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 8.562255859375
+    },
+    {
+      "pair_id": 14,
+      "a": "鸟",
+      "b": "乌",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 8.130615234375
+    },
+    {
+      "pair_id": 14,
+      "a": "鸟",
+      "b": "乌",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 7.242919921875
+    },
+    {
+      "pair_id": 15,
+      "a": "王",
+      "b": "玉",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 6.48583984375
+    },
+    {
+      "pair_id": 15,
+      "a": "王",
+      "b": "玉",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 6.185546875
+    },
+    {
+      "pair_id": 15,
+      "a": "王",
+      "b": "玉",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 5.789306640625
+    },
+    {
+      "pair_id": 16,
+      "a": "玉",
+      "b": "主",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 33.824951171875
+    },
+    {
+      "pair_id": 16,
+      "a": "玉",
+      "b": "主",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 32.453369140625
+    },
+    {
+      "pair_id": 16,
+      "a": "玉",
+      "b": "主",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 29.59912109375
+    },
+    {
+      "pair_id": 17,
+      "a": "田",
+      "b": "由",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 35.39794921875
+    },
+    {
+      "pair_id": 17,
+      "a": "田",
+      "b": "由",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 33.835693359375
+    },
+    {
+      "pair_id": 17,
+      "a": "田",
+      "b": "由",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 30.840576171875
+    },
+    {
+      "pair_id": 18,
+      "a": "由",
+      "b": "申",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 40.094482421875
+    },
+    {
+      "pair_id": 18,
+      "a": "由",
+      "b": "申",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 38.66259765625
+    },
+    {
+      "pair_id": 18,
+      "a": "由",
+      "b": "申",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 35.501708984375
+    },
+    {
+      "pair_id": 19,
+      "a": "申",
+      "b": "甲",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 31.18603515625
+    },
+    {
+      "pair_id": 19,
+      "a": "申",
+      "b": "甲",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 29.4638671875
+    },
+    {
+      "pair_id": 19,
+      "a": "申",
+      "b": "甲",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 25.40087890625
+    },
+    {
+      "pair_id": 20,
+      "a": "茶",
+      "b": "荼",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 29.108154296875
+    },
+    {
+      "pair_id": 20,
+      "a": "茶",
+      "b": "荼",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 27.1767578125
+    },
+    {
+      "pair_id": 20,
+      "a": "茶",
+      "b": "荼",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 22.421630859375
+    },
+    {
+      "pair_id": 21,
+      "a": "情",
+      "b": "晴",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 34.55126953125
+    },
+    {
+      "pair_id": 21,
+      "a": "情",
+      "b": "晴",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 32.563720703125
+    },
+    {
+      "pair_id": 21,
+      "a": "情",
+      "b": "晴",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 27.71484375
+    },
+    {
+      "pair_id": 22,
+      "a": "晴",
+      "b": "清",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 34.675048828125
+    },
+    {
+      "pair_id": 22,
+      "a": "晴",
+      "b": "清",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 32.907470703125
+    },
+    {
+      "pair_id": 22,
+      "a": "晴",
+      "b": "清",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 28.673583984375
+    },
+    {
+      "pair_id": 23,
+      "a": "清",
+      "b": "请",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 22.483154296875
+    },
+    {
+      "pair_id": 23,
+      "a": "清",
+      "b": "请",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 21.37548828125
+    },
+    {
+      "pair_id": 23,
+      "a": "清",
+      "b": "请",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 18.868408203125
+    },
+    {
+      "pair_id": 24,
+      "a": "晴",
+      "b": "睛",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 12.142333984375
+    },
+    {
+      "pair_id": 24,
+      "a": "晴",
+      "b": "睛",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 11.636962890625
+    },
+    {
+      "pair_id": 24,
+      "a": "晴",
+      "b": "睛",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 10.572998046875
+    },
+    {
+      "pair_id": 25,
+      "a": "沮",
+      "b": "狙",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 27.551025390625
+    },
+    {
+      "pair_id": 25,
+      "a": "沮",
+      "b": "狙",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 26.521240234375
+    },
+    {
+      "pair_id": 25,
+      "a": "沮",
+      "b": "狙",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 23.8515625
+    },
+    {
+      "pair_id": 26,
+      "a": "沮",
+      "b": "阻",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 28.955078125
+    },
+    {
+      "pair_id": 26,
+      "a": "沮",
+      "b": "阻",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 27.58740234375
+    },
+    {
+      "pair_id": 26,
+      "a": "沮",
+      "b": "阻",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 24.314208984375
+    },
+    {
+      "pair_id": 27,
+      "a": "沮",
+      "b": "租",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 34.299072265625
+    },
+    {
+      "pair_id": 27,
+      "a": "沮",
+      "b": "租",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 32.598876953125
+    },
+    {
+      "pair_id": 27,
+      "a": "沮",
+      "b": "租",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 28.727783203125
+    },
+    {
+      "pair_id": 28,
+      "a": "沮",
+      "b": "祖",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 31.936767578125
+    },
+    {
+      "pair_id": 28,
+      "a": "沮",
+      "b": "祖",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 30.525390625
+    },
+    {
+      "pair_id": 28,
+      "a": "沮",
+      "b": "祖",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 27.267333984375
+    },
+    {
+      "pair_id": 29,
+      "a": "抹",
+      "b": "沫",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 30.59521484375
+    },
+    {
+      "pair_id": 29,
+      "a": "抹",
+      "b": "沫",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 29.253662109375
+    },
+    {
+      "pair_id": 29,
+      "a": "抹",
+      "b": "沫",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 25.8681640625
+    },
+    {
+      "pair_id": 30,
+      "a": "抹",
+      "b": "昧",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 29.326171875
+    },
+    {
+      "pair_id": 30,
+      "a": "抹",
+      "b": "昧",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 27.727294921875
+    },
+    {
+      "pair_id": 30,
+      "a": "抹",
+      "b": "昧",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 24.20947265625
+    },
+    {
+      "pair_id": 31,
+      "a": "昧",
+      "b": "妹",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 26.5830078125
+    },
+    {
+      "pair_id": 31,
+      "a": "昧",
+      "b": "妹",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 24.84228515625
+    },
+    {
+      "pair_id": 31,
+      "a": "昧",
+      "b": "妹",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 21.234619140625
+    },
+    {
+      "pair_id": 32,
+      "a": "侍",
+      "b": "待",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 16.904541015625
+    },
+    {
+      "pair_id": 32,
+      "a": "侍",
+      "b": "待",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 16.020751953125
+    },
+    {
+      "pair_id": 32,
+      "a": "侍",
+      "b": "待",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 14.05712890625
+    },
+    {
+      "pair_id": 33,
+      "a": "侍",
+      "b": "持",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 20.747802734375
+    },
+    {
+      "pair_id": 33,
+      "a": "侍",
+      "b": "持",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 19.99609375
+    },
+    {
+      "pair_id": 33,
+      "a": "侍",
+      "b": "持",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 18.09375
+    },
+    {
+      "pair_id": 34,
+      "a": "持",
+      "b": "特",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 27.45751953125
+    },
+    {
+      "pair_id": 34,
+      "a": "持",
+      "b": "特",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 25.849365234375
+    },
+    {
+      "pair_id": 34,
+      "a": "持",
+      "b": "特",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 21.94384765625
+    },
+    {
+      "pair_id": 35,
+      "a": "汪",
+      "b": "枉",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 27.19970703125
+    },
+    {
+      "pair_id": 35,
+      "a": "汪",
+      "b": "枉",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 26.41259765625
+    },
+    {
+      "pair_id": 35,
+      "a": "汪",
+      "b": "枉",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 24.4521484375
+    },
+    {
+      "pair_id": 36,
+      "a": "裸",
+      "b": "棵",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 17.15234375
+    },
+    {
+      "pair_id": 36,
+      "a": "裸",
+      "b": "棵",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 15.867919921875
+    },
+    {
+      "pair_id": 36,
+      "a": "裸",
+      "b": "棵",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 13.2265625
+    },
+    {
+      "pair_id": 37,
+      "a": "棵",
+      "b": "踝",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 25.08544921875
+    },
+    {
+      "pair_id": 37,
+      "a": "棵",
+      "b": "踝",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 23.5927734375
+    },
+    {
+      "pair_id": 37,
+      "a": "棵",
+      "b": "踝",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 20.190673828125
+    },
+    {
+      "pair_id": 38,
+      "a": "菅",
+      "b": "管",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 22.20068359375
+    },
+    {
+      "pair_id": 38,
+      "a": "菅",
+      "b": "管",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 20.76904296875
+    },
+    {
+      "pair_id": 38,
+      "a": "菅",
+      "b": "管",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 16.81982421875
+    },
+    {
+      "pair_id": 39,
+      "a": "辩",
+      "b": "辨",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 14.178466796875
+    },
+    {
+      "pair_id": 39,
+      "a": "辩",
+      "b": "辨",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 13.3779296875
+    },
+    {
+      "pair_id": 39,
+      "a": "辩",
+      "b": "辨",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 11.4482421875
+    },
+    {
+      "pair_id": 40,
+      "a": "辨",
+      "b": "辫",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 23.984619140625
+    },
+    {
+      "pair_id": 40,
+      "a": "辨",
+      "b": "辫",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 22.174072265625
+    },
+    {
+      "pair_id": 40,
+      "a": "辨",
+      "b": "辫",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 17.90576171875
+    },
+    {
+      "pair_id": 41,
+      "a": "辨",
+      "b": "瓣",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 36.902099609375
+    },
+    {
+      "pair_id": 41,
+      "a": "辨",
+      "b": "瓣",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 33.430419921875
+    },
+    {
+      "pair_id": 41,
+      "a": "辨",
+      "b": "瓣",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 25.56005859375
+    },
+    {
+      "pair_id": 42,
+      "a": "暮",
+      "b": "幕",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 24.4091796875
+    },
+    {
+      "pair_id": 42,
+      "a": "暮",
+      "b": "幕",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 22.1650390625
+    },
+    {
+      "pair_id": 42,
+      "a": "暮",
+      "b": "幕",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 16.741943359375
+    },
+    {
+      "pair_id": 43,
+      "a": "幕",
+      "b": "墓",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 16.01220703125
+    },
+    {
+      "pair_id": 43,
+      "a": "幕",
+      "b": "墓",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 14.80322265625
+    },
+    {
+      "pair_id": 43,
+      "a": "幕",
+      "b": "墓",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 12.23681640625
+    },
+    {
+      "pair_id": 44,
+      "a": "墓",
+      "b": "慕",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 19.859619140625
+    },
+    {
+      "pair_id": 44,
+      "a": "墓",
+      "b": "慕",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 18.30224609375
+    },
+    {
+      "pair_id": 44,
+      "a": "墓",
+      "b": "慕",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 14.7509765625
+    },
+    {
+      "pair_id": 45,
+      "a": "慕",
+      "b": "蓦",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 44.1044921875
+    },
+    {
+      "pair_id": 45,
+      "a": "慕",
+      "b": "蓦",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 39.282958984375
+    },
+    {
+      "pair_id": 45,
+      "a": "慕",
+      "b": "蓦",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 28.413818359375
+    },
+    {
+      "pair_id": 46,
+      "a": "赢",
+      "b": "羸",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 12.470458984375
+    },
+    {
+      "pair_id": 46,
+      "a": "赢",
+      "b": "羸",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 10.960205078125
+    },
+    {
+      "pair_id": 46,
+      "a": "赢",
+      "b": "羸",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 7.75048828125
+    },
+    {
+      "pair_id": 47,
+      "a": "赢",
+      "b": "嬴",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 12.244140625
+    },
+    {
+      "pair_id": 47,
+      "a": "赢",
+      "b": "嬴",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 10.681640625
+    },
+    {
+      "pair_id": 47,
+      "a": "赢",
+      "b": "嬴",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 7.31494140625
+    },
+    {
+      "pair_id": 48,
+      "a": "赢",
+      "b": "蠃",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 11.676513671875
+    },
+    {
+      "pair_id": 48,
+      "a": "赢",
+      "b": "蠃",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 10.390869140625
+    },
+    {
+      "pair_id": 48,
+      "a": "赢",
+      "b": "蠃",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 7.802734375
+    },
+    {
+      "pair_id": 49,
+      "a": "崇",
+      "b": "祟",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 21.845458984375
+    },
+    {
+      "pair_id": 49,
+      "a": "崇",
+      "b": "祟",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 20.556884765625
+    },
+    {
+      "pair_id": 49,
+      "a": "崇",
+      "b": "祟",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 17.31396484375
+    },
+    {
+      "pair_id": 50,
+      "a": "微",
+      "b": "徽",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 27.03662109375
+    },
+    {
+      "pair_id": 50,
+      "a": "微",
+      "b": "徽",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 24.602294921875
+    },
+    {
+      "pair_id": 50,
+      "a": "微",
+      "b": "徽",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 19.174072265625
+    },
+    {
+      "pair_id": 51,
+      "a": "翼",
+      "b": "冀",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 32.50537109375
+    },
+    {
+      "pair_id": 51,
+      "a": "翼",
+      "b": "冀",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 28.373046875
+    },
+    {
+      "pair_id": 51,
+      "a": "翼",
+      "b": "冀",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 19.0888671875
+    },
+    {
+      "pair_id": 52,
+      "a": "塞",
+      "b": "寨",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 38.668212890625
+    },
+    {
+      "pair_id": 52,
+      "a": "塞",
+      "b": "寨",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 35.0283203125
+    },
+    {
+      "pair_id": 52,
+      "a": "塞",
+      "b": "寨",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 26.407470703125
+    },
+    {
+      "pair_id": 53,
+      "a": "塞",
+      "b": "寒",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 18.6064453125
+    },
+    {
+      "pair_id": 53,
+      "a": "塞",
+      "b": "寒",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 17.299072265625
+    },
+    {
+      "pair_id": 53,
+      "a": "塞",
+      "b": "寒",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 14.3212890625
+    },
+    {
+      "pair_id": 54,
+      "a": "籍",
+      "b": "藉",
+      "sigma": 0,
+      "mean_absolute_pixel_difference": 20.55712890625
+    },
+    {
+      "pair_id": 54,
+      "a": "籍",
+      "b": "藉",
+      "sigma": 0.5,
+      "mean_absolute_pixel_difference": 18.846923828125
+    },
+    {
+      "pair_id": 54,
+      "a": "籍",
+      "b": "藉",
+      "sigma": 1.0,
+      "mean_absolute_pixel_difference": 14.835693359375
+    }
+  ],
+  "interpretation": "像素差仅作相同图检查与定位线索，不是人类可读性或模型难度指标。",
+  "geometry": [
+    {
+      "char": "己",
+      "position": "c",
+      "bbox_high": [
+        58,
+        49,
+        216,
+        212
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "己",
+      "position": "tl",
+      "bbox_high": [
+        46,
+        37,
+        204,
+        200
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "己",
+      "position": "tr",
+      "bbox_high": [
+        70,
+        37,
+        228,
+        200
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "己",
+      "position": "bl",
+      "bbox_high": [
+        46,
+        61,
+        204,
+        224
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "己",
+      "position": "br",
+      "bbox_high": [
+        70,
+        61,
+        228,
+        224
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "已",
+      "position": "c",
+      "bbox_high": [
+        49,
+        50,
+        215,
+        211
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "已",
+      "position": "tl",
+      "bbox_high": [
+        37,
+        38,
+        203,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "已",
+      "position": "tr",
+      "bbox_high": [
+        61,
+        38,
+        227,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "已",
+      "position": "bl",
+      "bbox_high": [
+        37,
+        62,
+        203,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "已",
+      "position": "br",
+      "bbox_high": [
+        61,
+        62,
+        227,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "巳",
+      "position": "c",
+      "bbox_high": [
+        57,
+        49,
+        214,
+        211
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "巳",
+      "position": "tl",
+      "bbox_high": [
+        45,
+        37,
+        202,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "巳",
+      "position": "tr",
+      "bbox_high": [
+        69,
+        37,
+        226,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "巳",
+      "position": "bl",
+      "bbox_high": [
+        45,
+        61,
+        202,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "巳",
+      "position": "br",
+      "bbox_high": [
+        69,
+        61,
+        226,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "土",
+      "position": "c",
+      "bbox_high": [
+        41,
+        38,
+        215,
+        208
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "土",
+      "position": "tl",
+      "bbox_high": [
+        29,
+        26,
+        203,
+        196
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "土",
+      "position": "tr",
+      "bbox_high": [
+        53,
+        26,
+        227,
+        196
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "土",
+      "position": "bl",
+      "bbox_high": [
+        29,
+        50,
+        203,
+        220
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "土",
+      "position": "br",
+      "bbox_high": [
+        53,
+        50,
+        227,
+        220
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "士",
+      "position": "c",
+      "bbox_high": [
+        42,
+        38,
+        215,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "士",
+      "position": "tl",
+      "bbox_high": [
+        30,
+        26,
+        203,
+        193
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "士",
+      "position": "tr",
+      "bbox_high": [
+        54,
+        26,
+        227,
+        193
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "士",
+      "position": "bl",
+      "bbox_high": [
+        30,
+        50,
+        203,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "士",
+      "position": "br",
+      "bbox_high": [
+        54,
+        50,
+        227,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "未",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "未",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "未",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "未",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "未",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "末",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "末",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "末",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "末",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "末",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "日",
+      "position": "c",
+      "bbox_high": [
+        65,
+        51,
+        192,
+        214
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "日",
+      "position": "tl",
+      "bbox_high": [
+        53,
+        39,
+        180,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "日",
+      "position": "tr",
+      "bbox_high": [
+        77,
+        39,
+        204,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "日",
+      "position": "bl",
+      "bbox_high": [
+        53,
+        63,
+        180,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "日",
+      "position": "br",
+      "bbox_high": [
+        77,
+        63,
+        204,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "曰",
+      "position": "c",
+      "bbox_high": [
+        56,
+        58,
+        201,
+        211
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "曰",
+      "position": "tl",
+      "bbox_high": [
+        44,
+        46,
+        189,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "曰",
+      "position": "tr",
+      "bbox_high": [
+        68,
+        46,
+        213,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "曰",
+      "position": "bl",
+      "bbox_high": [
+        44,
+        70,
+        189,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "曰",
+      "position": "br",
+      "bbox_high": [
+        68,
+        70,
+        213,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戊",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        218,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戊",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        206,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戊",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        230,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戊",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        206,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戊",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        230,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戌",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        218,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戌",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        206,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戌",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        230,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戌",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        206,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戌",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        230,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戍",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        216,
+        218
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戍",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        204,
+        206
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戍",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        228,
+        206
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戍",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        204,
+        230
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "戍",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        228,
+        230
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "木",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "木",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "木",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "木",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "木",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "本",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "本",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "本",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "本",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "本",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "术",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "术",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "术",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "术",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "术",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "朱",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "朱",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "朱",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "朱",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "朱",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "大",
+      "position": "c",
+      "bbox_high": [
+        40,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "大",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "大",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "大",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "大",
+      "position": "br",
+      "bbox_high": [
+        52,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "太",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "太",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "太",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "太",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "太",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "犬",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "犬",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "犬",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "犬",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "犬",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刀",
+      "position": "c",
+      "bbox_high": [
+        40,
+        59,
+        207,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刀",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        47,
+        195,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刀",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        47,
+        219,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刀",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        71,
+        195,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刀",
+      "position": "br",
+      "bbox_high": [
+        52,
+        71,
+        219,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刃",
+      "position": "c",
+      "bbox_high": [
+        42,
+        58,
+        201,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刃",
+      "position": "tl",
+      "bbox_high": [
+        30,
+        46,
+        189,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刃",
+      "position": "tr",
+      "bbox_high": [
+        54,
+        46,
+        213,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刃",
+      "position": "bl",
+      "bbox_high": [
+        30,
+        70,
+        189,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "刃",
+      "position": "br",
+      "bbox_high": [
+        54,
+        70,
+        213,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "鸟",
+      "position": "c",
+      "bbox_high": [
+        41,
+        37,
+        209,
+        215
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "鸟",
+      "position": "tl",
+      "bbox_high": [
+        29,
+        25,
+        197,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "鸟",
+      "position": "tr",
+      "bbox_high": [
+        53,
+        25,
+        221,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "鸟",
+      "position": "bl",
+      "bbox_high": [
+        29,
+        49,
+        197,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "鸟",
+      "position": "br",
+      "bbox_high": [
+        53,
+        49,
+        221,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "乌",
+      "position": "c",
+      "bbox_high": [
+        42,
+        37,
+        209,
+        215
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "乌",
+      "position": "tl",
+      "bbox_high": [
+        30,
+        25,
+        197,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "乌",
+      "position": "tr",
+      "bbox_high": [
+        54,
+        25,
+        221,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "乌",
+      "position": "bl",
+      "bbox_high": [
+        30,
+        49,
+        197,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "乌",
+      "position": "br",
+      "bbox_high": [
+        54,
+        49,
+        221,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "王",
+      "position": "c",
+      "bbox_high": [
+        41,
+        51,
+        215,
+        207
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "王",
+      "position": "tl",
+      "bbox_high": [
+        29,
+        39,
+        203,
+        195
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "王",
+      "position": "tr",
+      "bbox_high": [
+        53,
+        39,
+        227,
+        195
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "王",
+      "position": "bl",
+      "bbox_high": [
+        29,
+        63,
+        203,
+        219
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "王",
+      "position": "br",
+      "bbox_high": [
+        53,
+        63,
+        227,
+        219
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "玉",
+      "position": "c",
+      "bbox_high": [
+        41,
+        50,
+        215,
+        209
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "玉",
+      "position": "tl",
+      "bbox_high": [
+        29,
+        38,
+        203,
+        197
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "玉",
+      "position": "tr",
+      "bbox_high": [
+        53,
+        38,
+        227,
+        197
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "玉",
+      "position": "bl",
+      "bbox_high": [
+        29,
+        62,
+        203,
+        221
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "玉",
+      "position": "br",
+      "bbox_high": [
+        53,
+        62,
+        227,
+        221
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "主",
+      "position": "c",
+      "bbox_high": [
+        42,
+        39,
+        215,
+        210
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "主",
+      "position": "tl",
+      "bbox_high": [
+        30,
+        27,
+        203,
+        198
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "主",
+      "position": "tr",
+      "bbox_high": [
+        54,
+        27,
+        227,
+        198
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "主",
+      "position": "bl",
+      "bbox_high": [
+        30,
+        51,
+        203,
+        222
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "主",
+      "position": "br",
+      "bbox_high": [
+        54,
+        51,
+        227,
+        222
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "由",
+      "position": "c",
+      "bbox_high": [
+        53,
+        38,
+        203,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "由",
+      "position": "tl",
+      "bbox_high": [
+        41,
+        26,
+        191,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "由",
+      "position": "tr",
+      "bbox_high": [
+        65,
+        26,
+        215,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "由",
+      "position": "bl",
+      "bbox_high": [
+        41,
+        50,
+        191,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "由",
+      "position": "br",
+      "bbox_high": [
+        65,
+        50,
+        215,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "甲",
+      "position": "c",
+      "bbox_high": [
+        56,
+        50,
+        201,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "甲",
+      "position": "tl",
+      "bbox_high": [
+        44,
+        38,
+        189,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "甲",
+      "position": "tr",
+      "bbox_high": [
+        68,
+        38,
+        213,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "甲",
+      "position": "bl",
+      "bbox_high": [
+        44,
+        62,
+        189,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "甲",
+      "position": "br",
+      "bbox_high": [
+        68,
+        62,
+        213,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "申",
+      "position": "c",
+      "bbox_high": [
+        53,
+        38,
+        204,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "申",
+      "position": "tl",
+      "bbox_high": [
+        41,
+        26,
+        192,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "申",
+      "position": "tr",
+      "bbox_high": [
+        65,
+        26,
+        216,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "申",
+      "position": "bl",
+      "bbox_high": [
+        41,
+        50,
+        192,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "申",
+      "position": "br",
+      "bbox_high": [
+        65,
+        50,
+        216,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "田",
+      "position": "c",
+      "bbox_high": [
+        50,
+        51,
+        207,
+        215
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "田",
+      "position": "tl",
+      "bbox_high": [
+        38,
+        39,
+        195,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "田",
+      "position": "tr",
+      "bbox_high": [
+        62,
+        39,
+        219,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "田",
+      "position": "bl",
+      "bbox_high": [
+        38,
+        63,
+        195,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "田",
+      "position": "br",
+      "bbox_high": [
+        62,
+        63,
+        219,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "茶",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        218,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "茶",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        206,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "茶",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        230,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "茶",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        206,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "茶",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        230,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "荼",
+      "position": "c",
+      "bbox_high": [
+        36,
+        38,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "荼",
+      "position": "tl",
+      "bbox_high": [
+        24,
+        26,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "荼",
+      "position": "tr",
+      "bbox_high": [
+        48,
+        26,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "荼",
+      "position": "bl",
+      "bbox_high": [
+        24,
+        50,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "荼",
+      "position": "br",
+      "bbox_high": [
+        48,
+        50,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "情",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        216,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "情",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        204,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "情",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        228,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "情",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        204,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "情",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        228,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "晴",
+      "position": "c",
+      "bbox_high": [
+        46,
+        38,
+        216,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "晴",
+      "position": "tl",
+      "bbox_high": [
+        34,
+        26,
+        204,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "晴",
+      "position": "tr",
+      "bbox_high": [
+        58,
+        26,
+        228,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "晴",
+      "position": "bl",
+      "bbox_high": [
+        34,
+        50,
+        204,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "晴",
+      "position": "br",
+      "bbox_high": [
+        58,
+        50,
+        228,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "清",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        215,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "清",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        203,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "清",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        227,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "清",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        203,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "清",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        227,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "请",
+      "position": "c",
+      "bbox_high": [
+        40,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "请",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "请",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "请",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "请",
+      "position": "br",
+      "bbox_high": [
+        52,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "睛",
+      "position": "c",
+      "bbox_high": [
+        46,
+        38,
+        215,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "睛",
+      "position": "tl",
+      "bbox_high": [
+        34,
+        26,
+        203,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "睛",
+      "position": "tr",
+      "bbox_high": [
+        58,
+        26,
+        227,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "睛",
+      "position": "bl",
+      "bbox_high": [
+        34,
+        50,
+        203,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "睛",
+      "position": "br",
+      "bbox_high": [
+        58,
+        50,
+        227,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沮",
+      "position": "c",
+      "bbox_high": [
+        39,
+        39,
+        217,
+        214
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沮",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        27,
+        205,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沮",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        27,
+        229,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沮",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        51,
+        205,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沮",
+      "position": "br",
+      "bbox_high": [
+        51,
+        51,
+        229,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "狙",
+      "position": "c",
+      "bbox_high": [
+        39,
+        42,
+        217,
+        214
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "狙",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        30,
+        205,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "狙",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        30,
+        229,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "狙",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        54,
+        205,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "狙",
+      "position": "br",
+      "bbox_high": [
+        51,
+        54,
+        229,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "阻",
+      "position": "c",
+      "bbox_high": [
+        48,
+        45,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "阻",
+      "position": "tl",
+      "bbox_high": [
+        36,
+        33,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "阻",
+      "position": "tr",
+      "bbox_high": [
+        60,
+        33,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "阻",
+      "position": "bl",
+      "bbox_high": [
+        36,
+        57,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "阻",
+      "position": "br",
+      "bbox_high": [
+        60,
+        57,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "租",
+      "position": "c",
+      "bbox_high": [
+        37,
+        40,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "租",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        28,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "租",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        28,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "租",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        52,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "租",
+      "position": "br",
+      "bbox_high": [
+        49,
+        52,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祖",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祖",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祖",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祖",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祖",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "抹",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        220,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "抹",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        208,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "抹",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        232,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "抹",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        208,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "抹",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        232,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沫",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沫",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沫",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沫",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "沫",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "昧",
+      "position": "c",
+      "bbox_high": [
+        46,
+        39,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "昧",
+      "position": "tl",
+      "bbox_high": [
+        34,
+        27,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "昧",
+      "position": "tr",
+      "bbox_high": [
+        58,
+        27,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "昧",
+      "position": "bl",
+      "bbox_high": [
+        34,
+        51,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "昧",
+      "position": "br",
+      "bbox_high": [
+        58,
+        51,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "妹",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "妹",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "妹",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "妹",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "妹",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "侍",
+      "position": "c",
+      "bbox_high": [
+        35,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "侍",
+      "position": "tl",
+      "bbox_high": [
+        23,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "侍",
+      "position": "tr",
+      "bbox_high": [
+        47,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "侍",
+      "position": "bl",
+      "bbox_high": [
+        23,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "侍",
+      "position": "br",
+      "bbox_high": [
+        47,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "待",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "待",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "待",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "待",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "待",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "持",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "持",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "持",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "持",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "持",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "特",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        216,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "特",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        204,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "特",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        228,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "特",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        204,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "特",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        228,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "汪",
+      "position": "c",
+      "bbox_high": [
+        40,
+        40,
+        215,
+        214
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "汪",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        28,
+        203,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "汪",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        28,
+        227,
+        202
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "汪",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        52,
+        203,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "汪",
+      "position": "br",
+      "bbox_high": [
+        52,
+        52,
+        227,
+        226
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "枉",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "枉",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "枉",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "枉",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "枉",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "裸",
+      "position": "c",
+      "bbox_high": [
+        38,
+        37,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "裸",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        25,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "裸",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        25,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "裸",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        49,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "裸",
+      "position": "br",
+      "bbox_high": [
+        50,
+        49,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "棵",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "棵",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "棵",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "棵",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "棵",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "踝",
+      "position": "c",
+      "bbox_high": [
+        38,
+        46,
+        220,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "踝",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        34,
+        208,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "踝",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        34,
+        232,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "踝",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        58,
+        208,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "踝",
+      "position": "br",
+      "bbox_high": [
+        50,
+        58,
+        232,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "菅",
+      "position": "c",
+      "bbox_high": [
+        43,
+        38,
+        214,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "菅",
+      "position": "tl",
+      "bbox_high": [
+        31,
+        26,
+        202,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "菅",
+      "position": "tr",
+      "bbox_high": [
+        55,
+        26,
+        226,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "菅",
+      "position": "bl",
+      "bbox_high": [
+        31,
+        50,
+        202,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "菅",
+      "position": "br",
+      "bbox_high": [
+        55,
+        50,
+        226,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "管",
+      "position": "c",
+      "bbox_high": [
+        40,
+        37,
+        213,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "管",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        25,
+        201,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "管",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        25,
+        225,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "管",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        49,
+        201,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "管",
+      "position": "br",
+      "bbox_high": [
+        52,
+        49,
+        225,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辩",
+      "position": "c",
+      "bbox_high": [
+        40,
+        38,
+        216,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辩",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        26,
+        204,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辩",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        26,
+        228,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辩",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        50,
+        204,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辩",
+      "position": "br",
+      "bbox_high": [
+        52,
+        50,
+        228,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辨",
+      "position": "c",
+      "bbox_high": [
+        40,
+        38,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辨",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        26,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辨",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        26,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辨",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        50,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辨",
+      "position": "br",
+      "bbox_high": [
+        52,
+        50,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辫",
+      "position": "c",
+      "bbox_high": [
+        40,
+        38,
+        217,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辫",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        26,
+        205,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辫",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        26,
+        229,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辫",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        50,
+        205,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "辫",
+      "position": "br",
+      "bbox_high": [
+        52,
+        50,
+        229,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "瓣",
+      "position": "c",
+      "bbox_high": [
+        39,
+        39,
+        217,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "瓣",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        27,
+        205,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "瓣",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        27,
+        229,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "瓣",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        51,
+        205,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "瓣",
+      "position": "br",
+      "bbox_high": [
+        51,
+        51,
+        229,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "暮",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "暮",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "暮",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "暮",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "暮",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "幕",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        219,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "幕",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        207,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "幕",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        231,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "幕",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        207,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "幕",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        231,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "墓",
+      "position": "c",
+      "bbox_high": [
+        38,
+        38,
+        218,
+        211
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "墓",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        26,
+        206,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "墓",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        26,
+        230,
+        199
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "墓",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        50,
+        206,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "墓",
+      "position": "br",
+      "bbox_high": [
+        50,
+        50,
+        230,
+        223
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "慕",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        216,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "慕",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        204,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "慕",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        228,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "慕",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        204,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "慕",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        228,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蓦",
+      "position": "c",
+      "bbox_high": [
+        39,
+        38,
+        218,
+        215
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蓦",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        26,
+        206,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蓦",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        26,
+        230,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蓦",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        50,
+        206,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蓦",
+      "position": "br",
+      "bbox_high": [
+        51,
+        50,
+        230,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "赢",
+      "position": "c",
+      "bbox_high": [
+        39,
+        36,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "赢",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        24,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "赢",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        24,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "赢",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        48,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "赢",
+      "position": "br",
+      "bbox_high": [
+        51,
+        48,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "羸",
+      "position": "c",
+      "bbox_high": [
+        38,
+        36,
+        218,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "羸",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        24,
+        206,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "羸",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        24,
+        230,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "羸",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        48,
+        206,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "羸",
+      "position": "br",
+      "bbox_high": [
+        50,
+        48,
+        230,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "嬴",
+      "position": "c",
+      "bbox_high": [
+        38,
+        36,
+        218,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "嬴",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        24,
+        206,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "嬴",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        24,
+        230,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "嬴",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        48,
+        206,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "嬴",
+      "position": "br",
+      "bbox_high": [
+        50,
+        48,
+        230,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蠃",
+      "position": "c",
+      "bbox_high": [
+        38,
+        36,
+        218,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蠃",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        24,
+        206,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蠃",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        24,
+        230,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蠃",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        48,
+        206,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "蠃",
+      "position": "br",
+      "bbox_high": [
+        50,
+        48,
+        230,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "崇",
+      "position": "c",
+      "bbox_high": [
+        42,
+        38,
+        211,
+        215
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "崇",
+      "position": "tl",
+      "bbox_high": [
+        30,
+        26,
+        199,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "崇",
+      "position": "tr",
+      "bbox_high": [
+        54,
+        26,
+        223,
+        203
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "崇",
+      "position": "bl",
+      "bbox_high": [
+        30,
+        50,
+        199,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "崇",
+      "position": "br",
+      "bbox_high": [
+        54,
+        50,
+        223,
+        227
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祟",
+      "position": "c",
+      "bbox_high": [
+        42,
+        38,
+        214,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祟",
+      "position": "tl",
+      "bbox_high": [
+        30,
+        26,
+        202,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祟",
+      "position": "tr",
+      "bbox_high": [
+        54,
+        26,
+        226,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祟",
+      "position": "bl",
+      "bbox_high": [
+        30,
+        50,
+        202,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "祟",
+      "position": "br",
+      "bbox_high": [
+        54,
+        50,
+        226,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "微",
+      "position": "c",
+      "bbox_high": [
+        35,
+        38,
+        218,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "微",
+      "position": "tl",
+      "bbox_high": [
+        23,
+        26,
+        206,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "微",
+      "position": "tr",
+      "bbox_high": [
+        47,
+        26,
+        230,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "微",
+      "position": "bl",
+      "bbox_high": [
+        23,
+        50,
+        206,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "微",
+      "position": "br",
+      "bbox_high": [
+        47,
+        50,
+        230,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "徽",
+      "position": "c",
+      "bbox_high": [
+        35,
+        38,
+        220,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "徽",
+      "position": "tl",
+      "bbox_high": [
+        23,
+        26,
+        208,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "徽",
+      "position": "tr",
+      "bbox_high": [
+        47,
+        26,
+        232,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "徽",
+      "position": "bl",
+      "bbox_high": [
+        23,
+        50,
+        208,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "徽",
+      "position": "br",
+      "bbox_high": [
+        47,
+        50,
+        232,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "翼",
+      "position": "c",
+      "bbox_high": [
+        40,
+        44,
+        216,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "翼",
+      "position": "tl",
+      "bbox_high": [
+        28,
+        32,
+        204,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "翼",
+      "position": "tr",
+      "bbox_high": [
+        52,
+        32,
+        228,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "翼",
+      "position": "bl",
+      "bbox_high": [
+        28,
+        56,
+        204,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "翼",
+      "position": "br",
+      "bbox_high": [
+        52,
+        56,
+        228,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "冀",
+      "position": "c",
+      "bbox_high": [
+        41,
+        38,
+        216,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "冀",
+      "position": "tl",
+      "bbox_high": [
+        29,
+        26,
+        204,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "冀",
+      "position": "tr",
+      "bbox_high": [
+        53,
+        26,
+        228,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "冀",
+      "position": "bl",
+      "bbox_high": [
+        29,
+        50,
+        204,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "冀",
+      "position": "br",
+      "bbox_high": [
+        53,
+        50,
+        228,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "塞",
+      "position": "c",
+      "bbox_high": [
+        39,
+        36,
+        218,
+        212
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "塞",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        24,
+        206,
+        200
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "塞",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        24,
+        230,
+        200
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "塞",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        48,
+        206,
+        224
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "塞",
+      "position": "br",
+      "bbox_high": [
+        51,
+        48,
+        230,
+        224
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寨",
+      "position": "c",
+      "bbox_high": [
+        38,
+        37,
+        217,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寨",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        25,
+        205,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寨",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        25,
+        229,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寨",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        49,
+        205,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寨",
+      "position": "br",
+      "bbox_high": [
+        50,
+        49,
+        229,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寒",
+      "position": "c",
+      "bbox_high": [
+        39,
+        36,
+        218,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寒",
+      "position": "tl",
+      "bbox_high": [
+        27,
+        24,
+        206,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寒",
+      "position": "tr",
+      "bbox_high": [
+        51,
+        24,
+        230,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寒",
+      "position": "bl",
+      "bbox_high": [
+        27,
+        48,
+        206,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "寒",
+      "position": "br",
+      "bbox_high": [
+        51,
+        48,
+        230,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "籍",
+      "position": "c",
+      "bbox_high": [
+        38,
+        37,
+        213,
+        217
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "籍",
+      "position": "tl",
+      "bbox_high": [
+        26,
+        25,
+        201,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "籍",
+      "position": "tr",
+      "bbox_high": [
+        50,
+        25,
+        225,
+        205
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "籍",
+      "position": "bl",
+      "bbox_high": [
+        26,
+        49,
+        201,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "籍",
+      "position": "br",
+      "bbox_high": [
+        50,
+        49,
+        225,
+        229
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "藉",
+      "position": "c",
+      "bbox_high": [
+        37,
+        38,
+        214,
+        216
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "藉",
+      "position": "tl",
+      "bbox_high": [
+        25,
+        26,
+        202,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "藉",
+      "position": "tr",
+      "bbox_high": [
+        49,
+        26,
+        226,
+        204
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "藉",
+      "position": "bl",
+      "bbox_high": [
+        25,
+        50,
+        202,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    },
+    {
+      "char": "藉",
+      "position": "br",
+      "bbox_high": [
+        49,
+        50,
+        226,
+        228
+      ],
+      "cropped": false,
+      "bbox_translation_exact": true,
+      "pixel_translation_exact": true
+    }
+  ],
+  "saved_file_errors": [],
+  "automatic_checks_passed": true
+}

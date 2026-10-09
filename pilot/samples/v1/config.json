@@ -1,0 +1,94 @@
+{
+  "purpose": "字体核验样张，未划分训练/验证/测试集",
+  "input_sha256": "1158fbcf096ab6ac962713ab924e61272470e408bb145195cd097f0374cab7d8",
+  "font_sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+  "font_name": [
+    "Source Han Sans SC",
+    "Regular"
+  ],
+  "font_version": "Version 2.005;addfeatures 5.0.0b21",
+  "font_source": {
+    "repository": "https://github.com/adobe-fonts/source-han-sans",
+    "ref": "release",
+    "commit": "a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2",
+    "retrieved_utc": "2026-10-04T16:51:26.580791+00:00",
+    "files": [
+      {
+        "name": "SourceHanSansSC-Regular.otf",
+        "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf",
+        "sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+        "bytes": 16529832
+      },
+      {
+        "name": "LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/LICENSE.txt",
+        "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+        "bytes": 4463
+      }
+    ]
+  },
+  "size": 64,
+  "mode": "L",
+  "background": 255,
+  "foreground": 0,
+  "supersampling": 4,
+  "font_size_high": 192,
+  "font_size_output": 48.0,
+  "layout_engine": "Pillow BASIC",
+  "anchor": "ls",
+  "union_bbox_high": [
+    0,
+    -164,
+    192,
+    20
+  ],
+  "baseline_high": [
+    32,
+    200
+  ],
+  "common_baseline_rounding": "floor(x+0.5), once for whole charset",
+  "resampling": "Lanczos",
+  "sigmas": [
+    0,
+    0.5,
+    1.0
+  ],
+  "blur": "Pillow GaussianBlur after downsampling",
+  "blur_white_padding": 16,
+  "positions": [
+    {
+      "id": "c",
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "id": "tl",
+      "dx": -3,
+      "dy": -3
+    },
+    {
+      "id": "tr",
+      "dx": 3,
+      "dy": -3
+    },
+    {
+      "id": "bl",
+      "dx": -3,
+      "dy": 3
+    },
+    {
+      "id": "br",
+      "dx": 3,
+      "dy": 3
+    }
+  ],
+  "boundary_darkness_threshold": 16,
+  "preview_not_full_position_grid": true,
+  "runtime": {
+    "python": "3.13.15",
+    "Pillow": "12.3.0",
+    "fonttools": "4.66.1",
+    "freetype": "2.14.3"
+  },
+  "renderer_sha256": "bcd73b2a399b50ad6606540994c10681fdc12c1be5f896d04a8b085882f0e221"
+}

@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>形近字样张 · 人工核验</title>
+  <style>
+    :root { color-scheme: light; --ink:#172c31; --muted:#5a6d71; --line:#d6e0dd; --paper:#f4f7f5; --accent:#12665f; --sprite-size:64px; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.65 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; }
+    button,input,select,textarea { font:inherit; color:inherit; }
+    button,select,input { min-height:40px; }
+    button,select { cursor:pointer; }
+    button { border:1px solid var(--line); border-radius:7px; background:white; padding:7px 14px; }
+    button:hover:not(:disabled) { border-color:var(--accent); color:var(--accent); }
+    button:disabled { opacity:.45; cursor:default; }
+    button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible { outline:3px solid #65b6a8; outline-offset:3px; }
+    input,select,textarea { border:1px solid #b9cbc5; border-radius:6px; padding:7px 10px; background:white; }
+    input[type="search"] { width:100%; }
+    textarea { width:100%; resize:vertical; min-height:66px; }
+    header,main,footer { max-width:1240px; margin:auto; padding:24px; }
+    header { padding-bottom:16px; }
+    h1 { font-size:28px; line-height:1.3; margin:4px 0 10px; letter-spacing:.02em; }
+    h2 { font-size:20px; margin:0; }
+    h3 { font-size:18px; margin:0; }
+    p { margin:6px 0; }
+    .eyebrow { color:var(--accent); font-size:12px; font-weight:700; letter-spacing:.15em; }
+    .muted,.hint { color:var(--muted); }
+    .hint { font-size:13px; }
+    .topline,.section-head,.pager,.card-head,.review-line { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+    .topline { align-items:flex-start; }
+    .primary { background:var(--accent); border-color:var(--accent); color:white; }
+    .primary:hover:not(:disabled) { background:#0b514c; color:white; }
+    .summary { display:flex; gap:10px; flex-wrap:wrap; margin:18px 0 10px; }
+    .stat { display:flex; align-items:baseline; gap:7px; background:white; padding:8px 13px; border:1px solid var(--line); border-radius:8px; font-size:13px; }
+    .stat strong { font-size:22px; font-variant-numeric:tabular-nums; }
+    .notice { background:#e9f2ef; border-left:3px solid #629d8d; border-radius:3px; padding:10px 13px; font-size:13px; }
+    .warning { background:#fff2d9; border-left-color:#b17610; }
+    .error { color:#8d2935; }
+    .toolbar { background:white; border:1px solid var(--line); border-radius:12px; padding:16px; }
+    .tabs { display:flex; gap:7px; flex-wrap:wrap; margin-bottom:15px; }
+    .tabs button[aria-selected="true"] { background:var(--accent); color:white; border-color:var(--accent); }
+    .controls { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-end; }
+    .field { display:flex; flex-direction:column; gap:4px; font-size:13px; min-width:140px; }
+    .search-field { flex:1; min-width:210px; }
+    .scale-field { min-width:168px; }
+    main { padding-top:12px; }
+    .section-head { margin:22px 0 12px; align-items:flex-start; }
+    .gallery { display:grid; gap:14px; }
+    .gallery.overview { grid-template-columns:repeat(auto-fill,minmax(174px,1fr)); }
+    .gallery.pairs,.gallery.positions { grid-template-columns:1fr; }
+    .card { background:white; border:1px solid var(--line); border-radius:10px; padding:16px; min-width:0; content-visibility:auto; contain-intrinsic-size:auto 290px; }
+    .card-head { margin-bottom:12px; }
+    .char-label { font-size:21px; font-weight:650; }
+    .badge { display:inline-block; background:#eef2f0; color:#475c56; border-radius:4px; padding:2px 7px; font-size:12px; }
+    .badge.good { background:#e3f2e9; color:#25613b; }
+    .badge.review { background:#fff1ce; color:#7a5704; }
+    .metadata { font-size:12px; color:var(--muted); overflow-wrap:anywhere; }
+    figure { margin:0; text-align:center; }
+    .sprite-wrap { display:inline-flex; padding:8px; background:#edf1ef; border:1px solid #d5ded9; border-radius:5px; line-height:0; position:relative; }
+    .sprite { display:block; width:var(--sprite-size); height:var(--sprite-size); max-width:none; background:white; }
+    body.zoomed .sprite { image-rendering:pixelated; image-rendering:crisp-edges; }
+    .sprite-wrap.failed { min-width:var(--sprite-size); min-height:var(--sprite-size); line-height:1.4; align-items:center; justify-content:center; font-size:12px; color:#912d38; }
+    figcaption { color:var(--muted); font-size:12px; margin:5px 0 0; }
+    .overview figure { margin:10px 0; }
+    .compare-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:14px 0; }
+    .sigma-group { background:#f8faf9; border:1px solid #e0e7e3; border-radius:7px; padding:12px 8px; min-width:max-content; }
+    .sigma-heading { font-size:12px; text-align:center; font-weight:650; color:var(--muted); margin:0 0 10px; }
+    .pair-images { display:flex; gap:10px; justify-content:center; }
+    .scroll-row { overflow-x:auto; padding-bottom:5px; }
+    .difference { background:#f4f7f5; padding:10px 12px; border-radius:6px; font-size:13px; }
+    .difference p { margin:3px 0; }
+    .review-controls { border-top:1px solid var(--line); padding-top:13px; margin-top:13px; }
+    .review-controls label { font-size:13px; }
+    .review-line { justify-content:flex-start; margin-bottom:8px; }
+    .notes-label { display:block; margin-bottom:4px; }
+    .positions-grid { display:grid; grid-template-columns:repeat(5,minmax(96px,1fr)); gap:10px; min-width:max-content; }
+    .positions-grid figure { padding:9px; border:1px solid #e0e7e3; border-radius:6px; background:#f8faf9; }
+    .position-title { font-size:13px; font-weight:650; margin:0 0 7px; }
+    .empty { padding:48px 20px; text-align:center; background:white; border:1px dashed var(--line); border-radius:10px; color:var(--muted); }
+    .pager { margin:18px 0; justify-content:center; font-size:13px; }
+    .pager span { min-width:160px; text-align:center; }
+    footer { padding-top:0; font-size:12px; color:var(--muted); }
+    details { border-top:1px solid var(--line); padding-top:12px; }
+    summary { cursor:pointer; }
+    pre { white-space:pre-wrap; overflow-wrap:anywhere; font:12px/1.6 ui-monospace,Consolas,monospace; background:#eaf0ec; border-radius:6px; padding:14px; max-height:350px; overflow:auto; }
+    [hidden] { display:none!important; }
+    @media(max-width:760px) { header,main,footer { padding-left:14px; padding-right:14px; } h1 { font-size:24px; } .compare-grid { min-width:max-content; grid-template-columns:repeat(3,auto); } .controls .field { flex:1 1 130px; } .controls .search-field { flex-basis:100%; } .card { padding:12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topline">
+      <div><div class="eyebrow">PRINTED CHINESE · PILOT GALLERY</div><h1>形近字样张 · 人工核验</h1><p class="muted" id="dataset-description">思源黑体 · 单字 PNG 样张</p></div>
+      <button class="primary" id="export-button" type="button">导出核验记录 JSON</button>
+    </div>
+    <div class="summary" aria-label="数据和人工核验状态">
+      <div class="stat"><strong id="character-count">—</strong><span>个汉字</span></div>
+      <div class="stat"><strong id="pair-count">—</strong><span>组字对</span></div>
+      <div class="stat"><strong id="unreviewed-count">—</strong><span>未核验</span></div>
+      <div class="stat"><strong id="checkable-count">—</strong><span>可检查</span></div>
+      <div class="stat"><strong id="review-count">—</strong><span>需复核</span></div>
+    </div>
+    <p class="notice">本页只核验字体覆盖、字形呈现与样张可检查性。“可检查”表示样张可用于后续检查，不代表已证明该字对有识别难度或模型会混淆。文字标签使用系统字体；判断字形请看 PNG 图片。</p>
+    <p class="hint" id="storage-message" role="status">人工标记保存在当前浏览器中；导出 JSON 可保留独立副本。</p>
+    <p class="notice warning" id="error-message" role="alert" hidden></p>
+    <div class="toolbar">
+      <nav class="tabs" role="tablist" aria-label="样张视图">
+        <button type="button" role="tab" id="tab-overview" aria-controls="gallery-panel" aria-selected="true" data-view="overview">清晰总览</button>
+        <button type="button" role="tab" id="tab-pairs" aria-controls="gallery-panel" aria-selected="false" data-view="pairs" tabindex="-1">字对对照</button>
+        <button type="button" role="tab" id="tab-positions" aria-controls="gallery-panel" aria-selected="false" data-view="positions" tabindex="-1">位移检查</button>
+      </nav>
+      <div class="controls">
+        <label class="field search-field">搜索汉字、字对或编号<input id="search" type="search" placeholder="例如：未、P001、U+672A" autocomplete="off"></label>
+        <label class="field">分类<select id="category"><option value="">全部分类</option></select></label>
+        <label class="field" id="position-field">图片位置<select id="position"><option value="c">居中</option><option value="tl">左上</option><option value="tr">右上</option><option value="bl">左下</option><option value="br">右下</option></select></label>
+        <label class="field" id="sigma-field" hidden>模糊强度 σ<select id="sigma"><option value="0">0 · 清晰</option><option value="0.5">0.5</option><option value="1">1</option></select></label>
+        <label class="field" id="review-filter-field" hidden>人工状态<select id="review-filter"><option value="">全部状态</option><option>未核验</option><option>可检查</option><option>需复核</option></select></label>
+        <label class="field scale-field">图片显示<select id="scale"><option value="64">64 px · 原尺寸</option><option value="128">128 px · 近邻放大</option></select></label>
+      </div>
+    </div>
+  </header>
+  <main id="gallery-panel" role="tabpanel" aria-labelledby="tab-overview">
+    <div class="section-head"><div><h2 id="view-title">清晰总览</h2><p class="hint" id="view-description"></p></div><span class="metadata" id="result-count" aria-live="polite"></span></div>
+    <div class="gallery overview" id="gallery"></div>
+    <div class="pager" id="pager"><button type="button" id="previous">上一页</button><span id="page-label" aria-live="polite"></span><button type="button" id="next">下一页</button></div>
+  </main>
+  <footer>
+    <p>此页面可离线打开，不请求外部脚本、字体或图片。64 px 是 PNG 原尺寸；128 px 只作近邻放大，不产生新的图像细节。切换视图、筛选及页码不会删除核验备注。</p>
+    <details><summary>查看生成配置与自动检查记录</summary><pre id="provenance"></pre></details>
+  </footer>
+  <script id="pilot-data" type="application/json">__PILOT_DATA__</script>
+  <script>
+  (() => {
+    "use strict";
+    const $ = id => document.getElementById(id);
+    let data;
+    try {
+      data = JSON.parse($("pilot-data").textContent);
+      if (!Array.isArray(data.characters) || !Array.isArray(data.pairs) || !Array.isArray(data.manifest)) throw new Error("数据结构不完整");
+    } catch (error) {
+      $("error-message").hidden = false;
+      $("error-message").textContent = "样张数据未就绪。请打开生成后的 index.html，而不是 gallery_template.html。";
+      $("export-button").disabled = true;
+      return;
+    }
+    const config = data.config || {};
+    const positionNames = {c:"居中",tl:"左上",tr:"右上",bl:"左下",br:"右下"};
+    const positions = Object.keys(positionNames);
+    const sigmas = [0,0.5,1];
+    const statuses = ["未核验","可检查","需复核"];
+    const charsById = new Map(data.characters.map(item => [String(item.class_id),item]));
+    const charsByChar = new Map(data.characters.map(item => [item.char,item]));
+    const pairsById = new Map(data.pairs.map(item => [String(item.pair_id),item]));
+    const imageIndex = new Map();
+    const imageKey = (char,sigma,position) => [char,Number(sigma),position].join("|");
+    for (const item of data.manifest) {
+      const char = item.char || (charsById.get(String(item.class_id)) || {}).char;
+      if (char) imageIndex.set(imageKey(char,item.sigma,item.position),item);
+    }
+    const state = {view:"overview",query:"",category:"",position:"c",sigma:0,reviewFilter:"",page:1};
+    let reviews = Object.create(null);
+    const inputHash = typeof config.input_sha256 === "string" ? config.input_sha256 : "";
+    const storageKey = inputHash ? "ocr-pilot-review:v1:" + inputHash : null;
+    function announceStorage(message,isWarning=false) {
+      $("storage-message").textContent = message;
+      $("storage-message").className = isWarning ? "notice warning" : "hint";
+    }
+    if (storageKey) {
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+        if (saved && saved.input_sha256 === inputHash && saved.reviews && typeof saved.reviews === "object") {
+          for (const [id,value] of Object.entries(saved.reviews)) {
+            if (pairsById.has(id) && value && statuses.includes(value.status)) {
+              reviews[id] = {status:value.status,note:typeof value.note === "string" ? value.note : "",updated_at:typeof value.updated_at === "string" ? value.updated_at : null};
+            }
+          }
+        }
+      } catch (error) {
+        announceStorage("当前浏览器未能读取本地记录。本次仍可核验并导出 JSON；请保留导出文件。",true);
+      }
+    } else {
+      announceStorage("生成配置缺少 input_sha256，本次记录只保留在页面内，请及时导出 JSON。",true);
+    }
+    function reviewFor(id) { return reviews[String(id)] || {status:"未核验",note:"",updated_at:null}; }
+    function persist() {
+      if (!storageKey) return;
+      try {
+        localStorage.setItem(storageKey,JSON.stringify({schema_version:"1.0",input_sha256:inputHash,reviews}));
+        announceStorage("已保存到当前浏览器。移动文件、切换浏览器或清理浏览器数据可能影响记录读取；建议导出 JSON。 ");
+      } catch (error) {
+        announceStorage("浏览器未能保存记录。本页内的标记仍在，请立即导出 JSON；关闭页面可能丢失未保存内容。",true);
+      }
+    }
+    function el(tag,className,text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined && text !== null) node.textContent = String(text);
+      return node;
+    }
+    function textValue(value) {
+      if (value == null) return "未提供";
+      if (Array.isArray(value)) return value.map(textValue).join("；");
+      if (typeof value === "object") return Object.entries(value).map(([k,v]) => k + "：" + textValue(v)).join("；");
+      return String(value);
+    }
+    function safeImagePath(path) {
+      if (typeof path !== "string") return null;
+      const normalized = path.replace(/\\/g,"/");
+      if (/^[\/]/.test(normalized) || /[:?#\u0000-\u001f]/.test(normalized) || !/\.png$/i.test(normalized)) return null;
+      return normalized;
+    }
+    function figure(char,sigma,position,caption) {
+      const item = imageIndex.get(imageKey(char,sigma,position));
+      const result = el("figure");
+      const wrap = el("div","sprite-wrap");
+      const path = item && safeImagePath(item.path);
+      if (path) {
+        const img = el("img","sprite");
+        img.src = path;
+        img.width = 64; img.height = 64; img.loading = "lazy"; img.decoding = "async";
+        img.alt = char + "；σ=" + sigma + "；" + positionNames[position];
+        img.addEventListener("error",() => { wrap.replaceChildren(el("span",null,"PNG 无法加载")); wrap.classList.add("failed"); });
+        wrap.append(img);
+      } else {
+        wrap.classList.add("failed");
+        wrap.append(el("span",null,"缺少 PNG"));
+      }
+      result.append(wrap);
+      if (caption) result.append(el("figcaption",null,caption));
+      return result;
+    }
+    function statusBadge(status) { return el("span","badge" + (status === "可检查" ? " good" : status === "需复核" ? " review" : ""),status); }
+    function updateCounts() {
+      const counts = Object.fromEntries(statuses.map(s => [s,0]));
+      for (const pair of data.pairs) counts[reviewFor(pair.pair_id).status]++;
+      $("character-count").textContent = data.characters.length;
+      $("pair-count").textContent = data.pairs.length;
+      $("unreviewed-count").textContent = counts["未核验"];
+      $("checkable-count").textContent = counts["可检查"];
+      $("review-count").textContent = counts["需复核"];
+    }
+    function saveReview(pair,status,note,badge) {
+      reviews[String(pair.pair_id)] = {status,note,updated_at:new Date().toISOString()};
+      if (badge) { const next = statusBadge(status); badge.className = next.className; badge.textContent = status; }
+      persist(); updateCounts();
+    }
+    function overviewCard(character) {
+      const card = el("article","card");
+      const head = el("div","card-head");
+      head.append(el("span","char-label",character.char),el("span","badge",character.category));
+      card.append(head,figure(character.char,0,state.position,"σ=0 · " + positionNames[state.position]),el("p","metadata","类别 " + character.class_id + " · " + (character.unicode || "")));
+      return card;
+    }
+    function labeledLine(label,value) {
+      const p = el("p"); p.append(el("strong",null,label + "："),document.createTextNode(textValue(value))); return p;
+    }
+    function pairCard(pair) {
+      const card = el("article","card");
+      const head = el("div","card-head");
+      const title = el("div");
+      title.append(el("h3",null,pair.a + " / " + pair.b),el("span","metadata",String(pair.pair_id) + " · " + textValue(pair.category)));
+      const current = reviewFor(pair.pair_id);
+      const badge = statusBadge(current.status);
+      head.append(title,badge); card.append(head);
+      const explanation = el("div","difference");
+      explanation.append(labeledLine("相似处",pair.similarity),labeledLine("差异",pair.difference),labeledLine("重点位置",pair.region));
+      card.append(explanation);
+      const scroll = el("div","scroll-row");
+      const compare = el("div","compare-grid");
+      for (const sigma of sigmas) {
+        const group = el("section","sigma-group");
+        group.append(el("p","sigma-heading","σ=" + sigma + (sigma === 0 ? " · 清晰" : " · 模糊") + " · " + positionNames[state.position]));
+        const images = el("div","pair-images");
+        images.append(figure(pair.a,sigma,state.position,pair.a),figure(pair.b,sigma,state.position,pair.b));
+        group.append(images); compare.append(group);
+      }
+      scroll.append(compare); card.append(scroll);
+      const review = el("div","review-controls");
+      const line = el("div","review-line");
+      const statusLabel = el("label",null,"人工状态 ");
+      const select = el("select"); select.setAttribute("aria-label",pair.a + "/" + pair.b + "人工核验状态");
+      for (const status of statuses) { const option = el("option",null,status); option.value = status; select.append(option); }
+      select.value = current.status; statusLabel.append(select);
+      line.append(statusLabel,el("span","hint","按当前字对整体记录；备注可注明 σ 和位置。"));
+      const notesLabel = el("label","notes-label","核验备注");
+      const notes = el("textarea"); notes.rows = 2; notes.value = current.note;
+      notes.placeholder = "例如：σ=1 时上方开口难辨；右下位移是否留足边距。";
+      notes.setAttribute("aria-label",pair.a + "/" + pair.b + "核验备注");
+      notesLabel.append(notes);
+      select.addEventListener("change",() => saveReview(pair,select.value,notes.value,badge));
+      notes.addEventListener("input",() => saveReview(pair,select.value,notes.value,badge));
+      review.append(line,notesLabel); card.append(review);
+      return card;
+    }
+    function positionCard(character) {
+      const card = el("article","card");
+      const head = el("div","card-head");
+      head.append(el("h3",null,character.char),el("span","metadata",character.category + " · 类别 " + character.class_id + " · σ=" + state.sigma));
+      card.append(head);
+      const scroll = el("div","scroll-row");
+      const grid = el("div","positions-grid");
+      for (const position of positions) {
+        const item = imageIndex.get(imageKey(character.char,state.sigma,position));
+        const caption = item ? "dx=" + item.dx + "，dy=" + item.dy : "未找到该位置记录";
+        const f = figure(character.char,state.sigma,position,caption);
+        f.prepend(el("p","position-title",positionNames[position])); grid.append(f);
+      }
+      scroll.append(grid); card.append(scroll);
+      return card;
+    }
+    function matchesQuery(item) {
+      if (!state.query) return true;
+      const fields = [item.char,item.a,item.b,item.pair_id,item.class_id,item.unicode,item.category,item.source_group,item.difference,item.region];
+      if (state.view === "pairs") for (const c of [item.a,item.b]) { const ch = charsByChar.get(c); if (ch) fields.push(ch.unicode,ch.class_id); }
+      const haystack = fields.filter(x => x !== undefined && x !== null).map(textValue).join(" ").toLocaleLowerCase();
+      return haystack.includes(state.query.toLocaleLowerCase());
+    }
+    function filteredItems() {
+      const items = state.view === "pairs" ? data.pairs : data.characters;
+      return items.filter(item => (!state.category || item.category === state.category) && matchesQuery(item) && (state.view !== "pairs" || !state.reviewFilter || reviewFor(item.pair_id).status === state.reviewFilter));
+    }
+    function render() {
+      const descriptions = {
+        overview:["清晰总览","固定 σ=0；选择位置，检查所有汉字是否完整、可见且无缺字。"],
+        pairs:["字对对照","每组同时展示 σ=0、0.5、1，两个字使用相同位置。核验状态按字对保存。"],
+        positions:["位移检查","同时展示居中及四个对角位置；切换 σ，观察边距与笔画是否完整。dx 向右为正，dy 向下为正。"]
+      };
+      $("view-title").textContent = descriptions[state.view][0];
+      $("view-description").textContent = descriptions[state.view][1];
+      $("position-field").hidden = state.view === "positions";
+      $("sigma-field").hidden = state.view !== "positions";
+      $("review-filter-field").hidden = state.view !== "pairs";
+      $("gallery-panel").setAttribute("aria-labelledby","tab-" + state.view);
+      for (const button of document.querySelectorAll("[data-view]")) {
+        button.setAttribute("aria-selected",String(button.dataset.view === state.view));
+        button.tabIndex = button.dataset.view === state.view ? 0 : -1;
+      }
+      const filtered = filteredItems();
+      const pageSize = state.view === "overview" ? 24 : 12;
+      const pageCount = Math.max(1,Math.ceil(filtered.length / pageSize));
+      state.page = Math.min(state.page,pageCount);
+      const start = (state.page - 1) * pageSize;
+      const visible = filtered.slice(start,start + pageSize);
+      const fragment = document.createDocumentFragment();
+      for (const item of visible) fragment.append(state.view === "overview" ? overviewCard(item) : state.view === "pairs" ? pairCard(item) : positionCard(item));
+      if (!visible.length) fragment.append(el("p","empty","没有符合条件的项目，请调整分类、搜索文字或人工状态。"));
+      $("gallery").className = "gallery " + state.view;
+      $("gallery").replaceChildren(fragment);
+      const unit = state.view === "pairs" ? "组字对" : "个汉字";
+      $("result-count").textContent = "筛选结果：" + filtered.length + " " + unit;
+      $("page-label").textContent = visible.length ? "第 " + state.page + " / " + pageCount + " 页 · " + (start + 1) + "–" + (start + visible.length) : "0 项";
+      $("previous").disabled = state.page <= 1;
+      $("next").disabled = state.page >= pageCount;
+      $("pager").hidden = filtered.length <= pageSize;
+    }
+    for (const category of new Set([...data.characters,...data.pairs].map(item => item.category).filter(Boolean))) {
+      const option = el("option",null,category); option.value = category; $("category").append(option);
+    }
+    for (const button of document.querySelectorAll("[data-view]")) button.addEventListener("click",() => { state.view = button.dataset.view; state.page = 1; render(); });
+    const tabs = Array.from(document.querySelectorAll("[data-view]"));
+    tabs.forEach((button,index) => button.addEventListener("keydown",event => {
+      let next;
+      if (event.key === "ArrowRight") next = (index + 1) % tabs.length;
+      if (event.key === "ArrowLeft") next = (index + tabs.length - 1) % tabs.length;
+      if (event.key === "Home") next = 0;
+      if (event.key === "End") next = tabs.length - 1;
+      if (next !== undefined) { event.preventDefault(); tabs[next].click(); tabs[next].focus(); }
+    }));
+    let searchTimer;
+    $("search").addEventListener("input",() => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { state.query = $("search").value.trim(); state.page = 1; render(); },100); });
+    $("category").addEventListener("change",() => { state.category = $("category").value; state.page = 1; render(); });
+    $("position").addEventListener("change",() => { state.position = $("position").value; render(); });
+    $("sigma").addEventListener("change",() => { state.sigma = Number($("sigma").value); render(); });
+    $("review-filter").addEventListener("change",() => { state.reviewFilter = $("review-filter").value; state.page = 1; render(); });
+    $("scale").addEventListener("change",() => { document.documentElement.style.setProperty("--sprite-size",$("scale").value + "px"); document.body.classList.toggle("zoomed",$("scale").value === "128"); });
+    function goPage(delta) { state.page += delta; render(); $("gallery-panel").scrollIntoView({block:"start"}); }
+    $("previous").addEventListener("click",() => goPage(-1));
+    $("next").addEventListener("click",() => goPage(1));
+    $("export-button").addEventListener("click",() => {
+      const exported = {
+        schema_version:"1.0",purpose:"字体样张人工核验，不代表模型难度或实验结果",exported_at:new Date().toISOString(),input_sha256:inputHash,
+        config,counts:Object.fromEntries(statuses.map(status => [status,data.pairs.filter(pair => reviewFor(pair.pair_id).status === status).length])),
+        pairs:data.pairs.map(pair => ({pair_id:pair.pair_id,a:pair.a,b:pair.b,category:pair.category,...reviewFor(pair.pair_id)}))
+      };
+      const blob = new Blob([JSON.stringify(exported,null,2)],{type:"application/json;charset=utf-8"});
+      const url = URL.createObjectURL(blob);
+      const link = el("a"); link.href = url;
+      link.download = "形近字样张核验_" + (inputHash.slice(0,12) || "未编号") + "_" + new Date().toISOString().replace(/[:.]/g,"-") + ".json";
+      document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url),10000);
+    });
+    $("dataset-description").textContent = "思源黑体 · 64×64 单字 PNG · 三档模糊 × 五个位置 · " + data.manifest.length + " 张样张";
+    $("provenance").textContent = JSON.stringify({config,audit:data.audit || {},manifest_count:data.manifest.length,input_sha256:inputHash},null,2);
+    updateCounts(); render();
+  })();
+  </script>
+</body>
+</html>
