@@ -1,4 +1,5 @@
 import json
+import hashlib
 from pathlib import Path
 from PIL import Image
 import torch
@@ -7,18 +8,30 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent
 
 class CharDataset(Dataset):
-    def __init__(self, split: str, root_dir: Path = ROOT / "dataset_81"):
+    def __init__(self, split: str, root_dir: Path = ROOT / "dataset_81_v2"):
         """
         :param split: 选择集合："train", "val_graph", "val_select", "test"
         :param root_dir: 数据集根目录
         """
-        self.root_dir = root_dir
-        meta_path = root_dir / "meta" / "dataset_meta.json"
-        with open(meta_path, "r", encoding="utf-8") as f:
-            all_records = json.load(f)
+        if split not in {"train", "val_graph", "val_select", "test"}:
+            raise ValueError(f"Unknown split: {split}")
+        self.root_dir = Path(root_dir)
+        manifest_path = self.root_dir / "meta/manifest.json"
+        self.manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if self.manifest.get("schema_version") != 2:
+            raise ValueError("Regenerate data with the repaired build_dataset.py")
+        raw = (self.root_dir / "meta/dataset_meta.json").read_bytes()
+        if hashlib.sha256(raw).hexdigest() != self.manifest["metadata_sha256"]:
+            raise ValueError("Dataset metadata hash mismatch")
+        all_records = json.loads(raw)
+        hashes = [r["pixel_sha256"] for r in all_records]
+        if len(hashes) != len(set(hashes)):
+            raise ValueError("Duplicate pixels across dataset records")
 
         # 筛选属于当前split的样本
         self.records = [r for r in all_records if r["split"] == split]
+        if not self.records:
+            raise ValueError(f"Empty dataset split: {split}")
 
     def __len__(self):
         return len(self.records)
@@ -28,7 +41,12 @@ class CharDataset(Dataset):
         img_path = self.root_dir / rec["file_relative"]
 
         # 读取灰度图
-        img = Image.open(img_path).convert("L")
+        with Image.open(img_path) as source:
+            if source.mode != "L" or source.size != (64, 64):
+                raise ValueError(f"Expected 64x64 grayscale: {img_path}")
+            img = source.copy()
+        if hashlib.sha256(img.tobytes()).hexdigest() != rec["pixel_sha256"]:
+            raise ValueError(f"Image pixels differ from metadata: {img_path}")
         # 转为numpy，再tensor；shape [1,64,64]
         img_tensor = torch.from_numpy(np.array(img, dtype=np.float32))
         img_tensor = img_tensor.unsqueeze(0)
